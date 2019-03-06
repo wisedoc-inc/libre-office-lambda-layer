@@ -1,0 +1,21 @@
+{
+  "name": "libre-office-lambda-layer",
+  "version": "0.0.1",
+  "description": "This package.json file is to auto download the packages for the lambda layer. Just run npm install --production here to get the libre office package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisedoc-inc/libre-office-lambda-layer.git"
+  },
+  "author": "Andy Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisedoc-inc/libre-office-lambda-layer/issues"
+  },
+  "homepage": "https://github.com/wisedoc-inc/libre-office-lambda-layer#readme",
+  "dependencies": {
+    "@shelf/aws-lambda-libreoffice": "^1.0.2"
+  }
+}

@@ -1,0 +1,15 @@
+service: libre-office-lambda-layer
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-west-2
+
+package:
+  exclude:
+    - libre-office-layer/**
+
+layers:
+  libre-office:
+    path: libre-office-layer

@@ -1,0 +1,22 @@
+{
+  "name": "libre-office-lambda-layer",
+  "version": "0.0.1",
+  "description": "Lambda Layer for AWS that contains the large libre office npm package",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisedoc-inc/libre-office-lambda-layer.git"
+  },
+  "author": "Andy Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisedoc-inc/libre-office-lambda-layer/issues"
+  },
+  "homepage": "https://github.com/wisedoc-inc/libre-office-lambda-layer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "serverless": "^1.38.0"
+  }
+}
